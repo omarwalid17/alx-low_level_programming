@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet: print the charaters from a to z
+ * print_alphabet - print the charaters from a to z in lowercase
  *
+ * Return: Always 0 (Success)
 */
 
 void print_alphabet(void)
