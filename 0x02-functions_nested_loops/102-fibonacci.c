@@ -22,7 +22,7 @@ int main(void)
         /* Let's check if we are at the end of the list, if we are close with a new line */
         if (count == 50)
         {
-            printf("%lu \n", next);
+            printf("%lu\n", next);
          }
          else  /* if we are not at the end of the list, add a comma after the number */
          { 
