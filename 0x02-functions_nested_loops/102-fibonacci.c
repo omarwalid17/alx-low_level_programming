@@ -28,7 +28,7 @@ int main(void)
 		else
 		{
 			/*لو انا مش قريب اطبع عادي*/
-			printf("%lu, ", next);
+			printf("%lu,", next);
 		}
 			/* Reset the variables to get the next number */
 			first = second;
