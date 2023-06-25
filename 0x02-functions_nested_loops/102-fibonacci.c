@@ -18,7 +18,7 @@ int main(void)
 	printf("%lu, ", first);
 	printf("%lu, ", second);
 
-	while (count <= 50)
+	while (count < 50)
 	{
 		if (count == 50)
 		{
@@ -28,7 +28,7 @@ int main(void)
 		else
 		{
 			/*لو انا مش قريب اطبع عادي*/
-			printf("%lu,", next);
+			printf("%lu, ", next);
 		}
 			/* Reset the variables to get the next number */
 			first = second;
