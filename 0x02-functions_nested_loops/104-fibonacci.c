@@ -1,17 +1,15 @@
 #include <stdio.h>
 
 
-	/**
-	 * main - fibonacci <3
-	 *
-	 * Purpose - no hardcode
-	 *
-	 * Return:  (Success)
-	 */
+/**
+ * main - main block
+ * Description: Print the first 50 fibonacci numbers, starting with 1 and 2.
+ * Numbers must be coma and space separated.
+ * Return: 0
+ */
 
-
-	int main(void)
-	{
+int main(void)
+{
 		unsigned long int i;
 		unsigned long int bef = 1;
 		unsigned long int aft = 2;
@@ -38,7 +36,7 @@
 		aft1 = (aft / l);
 		aft2 = (aft % l);
 
-	for (i = 92; i < 99; ++i)
+		for (i = 92; i < 99; ++i)
 		{
 			printf(", %lu", aft1 + (aft2 / l));
 			printf("%lu", aft2 % l);
@@ -49,4 +47,4 @@
 		}
 		printf("\n");
 		return (0);
-	}
+}
