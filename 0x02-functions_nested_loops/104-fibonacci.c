@@ -21,12 +21,21 @@ int main(void)
 	{
 		c1 = a1 + b1;
 		c2 = a2 + b2;
+
 		if (c2 > 999999999)
 		{
 			c1++;
 			c2 %= 1000000000;
 		}
-		printf(", %lu%09lu", c1, c2);
+		printf(", ");
+		if (c1 == 0)
+		{
+			printf("%lu", c2);
+		}
+		else
+		{
+			printf("%lu%lu", c1, c2);
+		}
 		a1 = b1;
 		a2 = b2;
 		b1 = c1;
