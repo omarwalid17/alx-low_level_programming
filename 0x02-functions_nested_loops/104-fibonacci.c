@@ -27,21 +27,21 @@ int main(void)
             c2 %= 1000000000;
         }
         printf(", ");
-        if (c1 == 0) // added conditional statement here
+        if (c1 == 0)
         {
-            printf("%lu", c2); // print only the second part
+            printf("%lu", c2);
         }
         else
         {
-            printf("%lu%lu", c1, c2); // print both parts
+            printf("%lu%lu", c1, c2);
         }
         a1 = b1;
         a2 = b2;
         b1 = c1;
         b2 = c2;
-        if (i == 95) // added conditional statement here
+        if (i == 95)
         {
-            printf("\n%lu\n", c2); // print only the second part of the last number
+            printf("\n%lu\n", c2);
         }
     }
 
